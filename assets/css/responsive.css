@@ -1,0 +1,138 @@
+
+
+/* Tablet and Mobile */
+@media (max-width: 63.9375em){
+    .s-col-full{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .btn{
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+    #profile .profile-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-image{
+        display: none;
+    }
+    .about-content{
+        text-align: center;
+    }
+    .about-content .about-honesty,
+    .about-content .about-information{
+        width: 100%;
+    }
+    .about-content .about-honesty{
+        margin-right: 0;
+    }
+    .about-content .about-information{
+        margin-top: 20px;
+    }
+
+    .contact-form{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-info{
+        line-height: 2;
+    }
+    .contact_group_URL{
+        padding-left: 5px;
+        width: 100%;
+    }
+    input[type="submit"]{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    textarea{
+        width: 320px;
+    }
+    #footer .socials-list{
+        font-size: 48px;
+    }
+
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width{
+        width: 100%;
+    }
+
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }    
+
+    #nav{
+       display: block;
+       width: 100%;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display:inline-block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    .about-content{
+        text-align: center;
+    }
+    .about-content .about-honesty,
+    .about-content .about-information{
+        width: 100%;
+    }
+    .about-content .about-information{
+        margin-top: 20px;
+    }
+    .education-degree{
+        width: 30%;
+        text-align: center ;
+    }
+    .school-list .school-item{
+        max-width: 100%;
+    }
+}
