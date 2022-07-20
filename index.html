@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>My Profile</title>
 </head>
 
@@ -27,7 +28,7 @@
             </li>
 
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#projects">Projects</a>
             </li>
 
             <li>
@@ -51,74 +52,82 @@
             <div class="profile-content">
                 <div class="profile-info">
                     <img class="profile-img" src="./assets/img/MyPhoto/39883047_1111452745698218_1507750734572027904_n.jpg" alt="Avatar">
-                    <h1 class="profile-name">Ma Phong Duc</h1>
+                    <h1 class="profile-name">Duc Phong Ma</h1>
                     <p class="profile-title">Full-stack Developer</p>
                     <div class="profile-interaction">
-                        <a class="btn profile-download" href="./assets/img/MyPhoto/Ma-Duc-Phong-TopCV.vn-070422.94545.pdf" download="MyResume.pdf">
+                        <a class="btn profile-download" href="./assets/img/MyPhoto/DucPhongMa_wtp100_resume_G.pdf" download="MyResume.pdf">
                             <i class="fa fa-download"></i>Resume
                         </a>
                         <a class="btn profile-contact" href="#contact">Contact Me</a>
                     </div>
+                    
                 </div>          
             </div>
+           
         </section>
 
         
             <!----- About section ----->
         <section id="about" class="content-section">
-            <h2 class="section-heading">About</h2>
+            <h2 class="section-heading">ABOUT</h2>
             <p class="section-sub-heading">We love developing</p>
             <div class="about-content">
                 <div class="about-honesty">
-                    <h3>About Me and Academic Honesty</h3>
+                    <h2 style="text-align: center;">About Me</h2>
                     <p class="about-text">
                         I'm Ma Phong Duc. I have a passion about web development. I'm really excited building a whole website. I hope I can find a job related to web developing
                         especially frontend first and then learn more about backend so that I am able to acquire more knowledge and learn how to build a whole website. 
                         And I will do my best to learn it and hope that I can be a fullstack developer in the future.</p>
-                    <p> I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. 
-                        No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and 
-                        / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.
-                    </p>
+                     <p class="about-text">
+                        I am currently attending Seneca College and am in my third year of the Advanced Diploma of Computer Programming and Analysis. During my time as a student in Seneca College, 
+                        I have gained experience in building server and client-site applications by using HTML5, CSS3, JavaScript, Node.js, Express.js as well as Microsoft SQL Server, Oracle 12c, and MongoDB. In addition, I have gained a strong understanding of Objected-Oriented Programming in C++, RESTful API and using GIT for Source Control Management.
 
+                     </p>   
                     <p id="date"><span>Date:</span> </p>
                 </div>
                 <div class="about-information">
-                    <h3>Basic Information</h3>
+                    <h2 style="text-align: center;">Skills</h2>
                     <table>
                         <tr>
-                            <td class="about-information_column-1">Age:</td>
+                            <td class="about-information_column-1">Programming language:</td>
                             <td>
-                                24
+                                C/C++, C#, JavaScript
                             </td>
                         </tr>
                         <tr>
-                            <td class="about-information_column-1">Email:</td>
+                            <td class="about-information_column-1">Front-end:</td>
                             <td>
-                                <a href="mailto:mphong-duc@myseneca.ca">mphong-duc@myseneca.ca</a>
+                                HTML5, CSS3, Bootstrap, Responsive, ReactJS
                             </td>
                         </tr>
                         <tr>
-                            <td class="about-information_column-1">Language:</td>
+                            <td class="about-information_column-1">Back-end:</td>
                             <td>
-                                Cantonese, English, Vietnamese
+                                NodeJS, ExpressJS, .NET MVC
                             </td>
                         </tr>
                         <tr>
-                            <td class="about-information_column-1">Class section:</td>
+                            <td class="about-information_column-1">Database:</td>
                             <td>
-                                NAA
+                                MongoDB, PostgreSQL, SQL server, Oracle 12c
                             </td>
                         </tr>
                         <tr>
-                            <td class="about-information_column-1">Student ID:</td>
+                            <td class="about-information_column-1">Web hosting: </td>
                             <td>
-                                137015194
+                                Heroku, Github
                             </td>
                         </tr>
                         <tr>
-                            <td class="about-information_column-1">Instructor:</td>
+                            <td class="about-information_column-1">Operating Systems: </td>
                             <td>
-                                Prof. David Humphrey
+                                Window, Linux/Unix
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="about-information_column-1">Software tools: </td>
+                            <td>
+                                Visual Studio, Visual Studio Code, Postman
                             </td>
                         </tr>
                     </table>
@@ -223,187 +232,81 @@
         </section>
 
         <!----- Begin: CONTACT section ----->
-        <section id="contact" class="content-section">
-            <h2 class="section-heading">CONTACT ME</h2>
-            <p class="section-sub-heading">Contact for more information</p>
-
-            <div class="contact-content">
-                <form class="contact-form" action="https://httpbin.org/post" method="POST">
-                    <div class="contact_group">
-                        <div class="s-col-full input-modify">
-                            <label for="fname"><span class="required">*</span> First Name</label>
-                            <input type="text" name="fname" required id="fname" tabindex="1">
-                        </div>
-                        <div class="s-col-full input-modify">
-                            <label for="mname">Middle Name</label>
-                            <input type="text" name="mname" id="mname" tabindex="2">
-                        </div>
-                        <div class="s-col-full input-modify">
-                            <label for="lname"><span class="required">*</span> Last Name</label>
-                            <input type="text" name="lname" required id="lname" tabindex="3">
-                        </div>
-                    </div>
-                    <div class="contact_group">
-                        <div class="s-col-full input-modify">
-                            <label for="email"><span class="required">*</span>  Email Address</label>
-                            <input
-                                id="email"
-                                name="email"
-                                autocomplete="email"
-                                type="email"
-                                tabindex="4"
-                                required
-                            >
-                        </div>
-
-                        <div class="s-col-full input-modify"></div>
-
-                        <div class="s-col-full input-modify">
-                            <label for="phone">Phone Number</label>
-                            <input
-                                id="phone"
-                                name="phone"
-                                autocomplete="tel"
-                                type = "tel"
-                                pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}"
-                                title="Please enter a valid phone format"
-                                tabindex="5"
-                            >
-                        </div>
-                    </div>
-                    <div class="contact_group">
-                        <div class="s-col-full input-address_modify mt-16">
-                            <label for="address"><span class="required">*</span> Street Address</label>
-                            <input
-                                id="address"
-                                name="address"
-                                autocomplete="street-address"
-                                type="text"
-                                tabindex="6"
-                                required
-                            >
-                        </div>
-                    </div>
-                    <div class="contact_group">
-                        <div class="s-col-full input-modify  mt-16">
-                            <label for="city"><span class="required">*</span> City</label>
-                            <input  id="city"
-                                name="city"
-                                autocomplete="address-level2"
-                                type="text"
-                                list="cities"
-                                tabindex="7"
-                                required 
-                            >
-                            <datalist id="cities">
-                                <option value="Toronto">
-                                <option value="Vancouver">
-                                <option value="Quebec">
-                                <option value="Ottawa">
-                                <option value="Other">
-                                </datalist>
+        <section id="projects" class="content-section">
+            <h2 class="section-heading">PROJECTS</h2>
+            <p class="section-sub-heading mb-5">My Personal Projects!</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <div>
+                        <img style="max-height: 400px;" class="d-block w-100" src="./assets/img/MyPhoto/3-dac-diem-co-mot-khong-hai-cua-giay-the-thao-adidas-superstar-de-nghiem-nhien-tro-thanh-bieu-tuong-cua-thuong-hieu-medium.jpg" alt="First slide">
+                        <hr>
+                        <div class="project-info"> 
+                            <p class="project-title">E-commercial Website</p>
+                            <p class="project-description">The project allows users be able to manage business in the store by handling CRUD functionality such as retrieve, create, modify and remove products in database.</p>
+                            <p class="project-description">
+                                Technology used: <span style="font-style: italic;">HTML5, CSS3, Bootstrap 4, JavaScript, Node.js, Express.js, MongoDB, Handlebars template engine</span>
+                            </p>
                         </div>
                         
-                        <div class="s-col-full input-modify mt-16">
-                            <label for="province"><span class="required">*</span> Province</label>
-                            <select
-                                id="province"
-                                name="province"
-                                autocomplete="address-level1"
-                                tabindex="8"
-                            >
-                            <option>Alberta</option>
-                            <option>British Columbia</option>
-                            <option>Manitoba</option>
-                            <option>New Brunswick</option>
-                            <option>Newfoundland and Labrador</option>
-                            <option>Northwest Territories</option>
-                            <option>Nova Scotia</option>
-                            <option>Nunavut</option>
-                            <option selected>Ontario</option>
-                            <option>Prince Edward Island</option>
-                            <option>Quebec</option>
-                            <option>Saskatchewan</option>
-                            <option>Yukon</option>
-                            </select>
-                        </div>
+                    </div>
+                </div>
 
-                        <div class="s-col-full input-modify mt-16">
-                            <label for="postal-code"><span class="required">*</span> Postal Code</label>
-                            <input
-                                id="postal-code"
-                                name="post-code"
-                                autocomplete="postal-code"
-                                type="text"
-                                tabindex="9"
-                                placeholder="L4H 0M6"
-                                pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$"
-                                title="Please enter a valid Canadian Postal Code"
-                                required
-                            >
+                  <div class="carousel-item">
+                   
+                    <div>
+                        <img style="max-height: 400px;" class="d-block w-100" src="./assets/img/MyPhoto/182362699_474359713678561_3483838564166115114_n.png" alt="Second slide">
+                        <hr>
+                        <div class="project-info"> 
+                            <p class="project-title">Web-based application</p>
+                            <p class="project-description">
+                                The purpose of the website is mainly for learning to know how frontend and backend communicate together 
+                                as well as learn how to organize frontend and backend structure. 
+                                I will improve the website be more perfect in the near future.
+                            </p>
+                            <p class="project-description">
+                                Technology used: <span style="font-style: italic;">HTML5, CSS3, Bootstrap 4, JavaScript, NodeJS, Express.js, MongoDB, ReactJS </span>
+                            </p>
                         </div>
                     </div>
-                    <div class="contact_group contact_group-radio mt-16">
-                        <label class="mt-8">Options:</label>
-                        <div class="contact_group-radio_item">
-                            <input
-                                id="question"
-                                name="option"
-                                type="radio"
-                                value = "question"
-                                tabindex="10"
-                            >
-                            <label for="question">Question</label>
+                </div>
+                  <div class="carousel-item">
+                    
+                    <div>
+                        
+                        <img style="max-height: 400px;"  class="d-block w-100" src="./assets/img/MyPhoto/Portfolio.JPG" alt="Third slide">
+                        <hr>
+                        <div class="project-info"> 
+                            <p class="project-title">E-porfolio Website</p>
+                            <p class="project-description">The project represents the portfolio of myself by using common web-building technologies to help me gain deeper understanding how to build a website landing page.</p>
+                            <p class="project-description">
+                                Technologies used: <span style="font-style: italic;">HTML5, CSS3, JavaScript, Bootstrap 4</span>
+                            </p>
                         </div>
-                        <div class="contact_group-radio_item">
-                            <input
-                                id="comment"
-                                name="option"
-                                type="radio"
-                                value = "comment"
-                                tabindex="11"
-                            >
-                            <label for="question">Comment</label>
-                        </div>
-                        <div class="contact_group-radio_item">
-                            <input
-                                id="hiring"
-                                name="option"
-                                type="radio"
-                                value = "hiring"
-                                tabindex="12"
-                            >
-                            <label for="question">Hiring</label>
-                        </div>
-                    </div>
-                    <div class="contact_group">
-                        <div class="s-col-full input-modify contact_group-rate hidden">
-                            <input type="number" name="hourly-rate" id="hourly-rate" placeholder="hourly rate" min="0" tabindex="13">
-                        </div>
-                    </div>
-                    <div class="contact_group_URL">
-                        <div class="s-col-full mt-16">
-                            <label for="url" class="mt-8"><span class="required">*</span> Company Website URL: </label>
-                            <input type="url" name="url" id="url" placeholder="Website"  tabindex="14">
-                        </div>
-                    </div>
-                    <div class="contact_group mt-8">
-                        <div class="input-modify">
-                            <label for="feedback">Description</label>
-                            <textarea name="description" rows="10" cols="115" id="feedback" tabindex="15"></textarea>
-                        </div>
-                    </div>
-                    <div class="s-col-full">
-                        <input class="contact-submot-btn btn mt-16" type="submit" value="SEND">
-                    </div>            
-                </form>                 
-            </div>
+                    </div> 
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
         </section>
 
         <!----- End: CONTACT section ----->
 
         <section class="img-section">
-            <img src="./assets/img/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg" alt="">
+            <img  src="./assets/img/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg" alt="">
         </section>
     </main>
     <footer id="footer">
@@ -415,6 +318,9 @@
     </footer>
 
     <script src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

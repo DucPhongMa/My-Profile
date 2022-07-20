@@ -152,19 +152,14 @@ html{
 /* Main */
 #profile{
   height: 940px;
-  background-color: #242ef1b9;
+  background-color: #000;
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   
 }
-#profile .profile-image{
-    width: 50%;
-    height: 940px;
-    background-image: url("../img/MyPhoto/274057988_710514030320684_2185632823706734039_n.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 #profile .profile-content{
     z-index: 2;
@@ -387,89 +382,25 @@ html{
     background-color: #242ef1b9;
 }
 
-/*  Contact  */
-.required{
-    color: red;
+/* Project section */
+.project-info{
+    text-align: center;
+    min-height: 230px;
+    max-height: 230px;
+    background-color: #000000;
 }
-.contact-content {
-    margin-top: 48px;
-}
-
-.contact-form{
-    background-color: white;
-    border-radius: 5px;
-    overflow: hidden;
-}
-.contact_group{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-   
-}
-.input-modify,
-.input-address_modify{
-    margin-top: 12px;
-    width: 30%;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.input-address_modify{
-    width: 90%;
-}
-
-
-input, select{
-    width: 100%;
-    height: 40px;
-    margin-top: 16px;
-    padding: 0 12px;
-    font-size: 1.1rem;
-    border: 1px solid #dbdbdb;
-    border-radius: 2px;
-}
-.contact_group-radio{
-    display: block;
-}
-.contact_group-radio_item{
-    padding: 0 50px;
-}
-input[type="radio"]{
-    width: 10px;
-    height: 10px;
-}
-textarea{  
-    border: 1px solid #dbdbdb;
-    margin-top: 20px;
-    padding: 6px 12px;
-}
-.contact_group_URL{padding-left: 5px;
-    width: 90%;
-}
-input:focus,
-textarea:focus{
-    outline: 2px solid lightskyblue;
-}
-
-
-input[type="submit"]{
-    width: 90%;
-    height: 34px;
-    text-decoration: none;
-    border: none;
-    border-radius: 2px;
-    font-size: 1.1rem;
-    padding: 0 12px;
-    cursor: pointer;
+.project-title{
+    padding-top: 20px;
     color: white;
-    background-color: #EE4D2D;
-    margin-bottom: 30px;
-    margin-left: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6em;
 }
-
-input[type="submit"]:hover,
-input[type="submit"]:focus{
-    color: #fff;
-    background-color: crimson;
+.project-description{
+    text-align: left;
+    padding: 0 30px;
+    color: white;
+    font-size: 1.1em;
 }
 
 /*  Map section  */
