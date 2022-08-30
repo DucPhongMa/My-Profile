@@ -152,7 +152,11 @@ html{
 /* Main */
 #profile{
   height: 940px;
-  background-color: #000;
+  /*background-color: #000;*/
+  background-image: url("../img/istockphoto-1202559909-170667a.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -386,8 +390,16 @@ html{
 .project-info{
     text-align: center;
     min-height: 230px;
-    max-height: 230px;
+    height: 310px;
     background-color: #000000;
+}
+.project-info div .btn{
+    background-color: white; 
+    color: black;
+    font-weight: 600;
+}
+.project-info div .btn:hover{
+    background-color: rgb(206, 129, 4);
 }
 .project-title{
     padding-top: 20px;
