@@ -389,8 +389,7 @@ html{
 /* Project section */
 .project-info{
     text-align: center;
-    min-height: 230px;
-    height: 310px;
+    height: 280px;
     background-color: #000000;
 }
 .project-info div .btn{
@@ -400,19 +399,20 @@ html{
 }
 .project-info div .btn:hover{
     background-color: rgb(206, 129, 4);
+    color: white;
 }
 .project-title{
     padding-top: 20px;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 .project-description{
     text-align: left;
     padding: 0 30px;
     color: white;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 /*  Map section  */

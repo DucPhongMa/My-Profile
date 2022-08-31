@@ -68,6 +68,9 @@
         padding: 12px 0;
         display: inline-block;
     }
+    .project-info{
+        height: 300px;
+    }
 }
 
 /* Mobile */
@@ -133,5 +136,8 @@
     }
     .school-list .school-item{
         max-width: 100%;
+    }
+    .project-info{
+        height: 448px;
     }
 }
